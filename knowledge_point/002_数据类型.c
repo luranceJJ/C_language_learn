@@ -38,5 +38,6 @@ void main(void)
     unsigned short s2 = 0xffff;
     
     printf("c1:%d, c2:%d, c3:%d, c4:%d, s1:%d, s2:%d\n", c1, c2, c3, c4, s1, s2);
+    printf("sizeof c1:%ld, char:%ld, s1:%ld, short:%ld\n", sizeof(c1), sizeof(char), sizeof(s1), sizeof(short));
 }
 #endif
